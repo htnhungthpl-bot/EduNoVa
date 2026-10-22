@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "isDemoCleaned": true,
+  "users": [
+    {
+      "id": "user-admin-01",
+      "username": "admin",
+      "fullName": "Quản trị viên Hệ thống (Admin)",
+      "role": "admin",
+      "passwordHash": "$2b$10$yPt1NwA.Pt3q/JZAdZRRRecvdyamHmH.Mlr94LLqPDwjxNFdESCzS",
+      "mustChangePassword": false,
+      "status": "active",
+      "email": "admin@edunova.edu.vn",
+      "avatar": "🛡️",
+      "createdAt": "2026-10-21T16:18:11.759Z",
+      "updatedAt": "2026-10-22T07:34:25.067Z",
+      "lastLoginAt": "2026-10-22T07:34:02.459Z"
+    },
+    {
+      "id": "user-school-01",
+      "username": "bgh_kimlien_a",
+      "fullName": "Ban Giám Hiệu – TH Kim Liên A",
+      "role": "school",
+      "passwordHash": "$2b$10$RfkPjRGwti0rVLzlPIJTbOVEH2hIEvEkTi/z06e.vKvbwDMDjvPCG",
+      "mustChangePassword": false,
+      "schoolId": "school-kimlien-a",
+      "schoolName": "Trường Tiểu học Kim Liên A",
+      "status": "active",
+      "email": "bgh@kimliena.edu.vn",
+      "avatar": "🏫",
+      "createdAt": "2026-10-21T16:18:11.759Z",
+      "updatedAt": "2026-10-21T16:18:11.759Z"
+    },
+    {
+      "id": "teacher-thu-ha",
+      "username": "cothuha",
+      "fullName": "Cô Nguyễn Thu Hà",
+      "role": "teacher",
+      "passwordHash": "$2b$10$o6kqlIoftnCkKDRKNdhhyOQk0KTDmvQsVbZw7VCxO8pQOEqiIb6G6",
+      "mustChangePassword": false,
+      "schoolId": "school-kimlien-a",
+      "schoolName": "Trường Tiểu học Kim Liên A",
+      "classId": "class-4a1",
+      "className": "Lớp 4A1",
+      "status": "active",
+      "email": "nguyenthuha.kimliena@gmail.com",
+      "avatar": "👩‍🏫",
+      "createdAt": "2026-10-21T16:18:11.759Z",
+      "updatedAt": "2026-10-21T16:18:11.759Z",
+      "lastLoginAt": "2026-10-21T16:18:45.981Z"
+    },
+    {
+      "id": "student-mai-anh",
+      "username": "maianh_4a1",
+      "fullName": "Nguyễn Mai Anh",
+      "studentCode": "HS4A1-01",
+      "pinCode": "1234",
+      "role": "student",
+      "status": "active",
+      "schoolId": "school-kimlien-a",
+      "schoolName": "Trường Tiểu học Kim Liên A",
+      "classId": "class-4a1",
+      "className": "Lớp 4A1",
+      "avatar": "👧",
+      "createdAt": "2026-10-21T16:18:11.759Z",
+      "updatedAt": "2026-10-21T16:18:11.759Z",
+      "lastLoginAt": "2026-10-21T16:18:23.688Z"
+    },
+    {
+      "id": "student-quoc-bao",
+      "username": "quocbao_4a1",
+      "fullName": "Trần Quốc Bảo",
+      "studentCode": "HS4A1-02",
+      "pinCode": "5678",
+      "role": "student",
+      "status": "active",
+      "schoolId": "school-kimlien-a",
+      "schoolName": "Trường Tiểu học Kim Liên A",
+      "classId": "class-4a1",
+      "className": "Lớp 4A1",
+      "avatar": "👦",
+      "createdAt": "2026-10-21T16:18:11.759Z",
+      "updatedAt": "2026-10-21T16:18:11.759Z"
+    },
+    {
+      "id": "teacher-1792655672625-x1rw",
+      "username": "htnhung_thpl",
+      "fullName": "Cô Hoàng Thị Nhung",
+      "role": "teacher",
+      "status": "active",
+      "email": "htnhung.thpl@gmail.com",
+      "schoolName": "Trường Tiểu học",
+      "className": "Lớp 4A1",
+      "avatar": "👩‍🏫",
+      "mustChangePassword": false,
+      "createdAt": "2026-10-22T07:54:32.625Z",
+      "updatedAt": "2026-10-22T07:54:32.625Z",
+      "lastLoginAt": "2026-10-22T07:54:47.461Z"
+    }
+  ],
+  "schools": [
+    {
+      "id": "school-kimlien-a",
+      "name": "Trường Tiểu học Kim Liên A",
+      "code": "THKLA",
+      "address": "Đống Đa, Hà Nội",
+      "email": "tieuhockimliena@edu.vn",
+      "phone": "024 3852 1234",
+      "createdAt": "2026-10-21T16:18:11.759Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-4a1",
+      "name": "Lớp 4A1",
+      "grade": 4,
+      "schoolId": "school-kimlien-a",
+      "schoolName": "Trường Tiểu học Kim Liên A",
+      "teacherIds": [
+        "teacher-thu-ha"
+      ],
+      "teacherNames": [
+        "Cô Nguyễn Thu Hà"
+      ],
+      "createdAt": "2026-10-21T16:18:11.759Z"
+    },
+    {
+      "id": "class-4a8",
+      "name": "Lớp 4A8",
+      "grade": 4,
+      "maxStudents": 36,
+      "schoolId": "school-kimlien-a",
+      "schoolName": "Trường Tiểu học Kim Liên A",
+      "teacherIds": [
+        "teacher-thu-ha"
+      ],
+      "teacherNames": [
+        "Cô Nguyễn Thu Hà"
+      ],
+      "createdAt": "2026-10-22T07:25:30.506Z"
+    }
+  ],
+  "assignments": [],
+  "submissions": [
+    {
+      "id": "sub-1792599521357-l3na",
+      "studentId": "student-mai-anh",
+      "studentName": "Nguyễn Mai Anh",
+      "studentCode": "HS4A1-01",
+      "studentClass": "Lớp 4A1",
+      "studentAvatar": "👧",
+      "schoolId": "school-kimlien-a",
+      "lessonId": "lesson-01",
+      "lessonTitle": "Miêu tả cây bàng thân thuộc",
+      "submittedAt": "16:18, 21/10/2026",
+      "status": "graded",
+      "wordCount": 28,
+      "content": "Cây bàng trường Kim Liên A tỏa bóng mát rượi cho chúng em giờ ra chơi. Thân cây to lớn và cành lá xanh tươi che chở cho đàn chim nhỏ.",
+      "score": 9.5,
+      "teacherComment": "Cô khen Mai Anh viết rất xúc cảm và tự nhiên!",
+      "stickersEarned": [
+        "Bông hoa điểm 10"
+      ],
+      "gradedAt": "2026-10-21T16:18:46.009Z",
+      "gradedBy": "Cô Nguyễn Thu Hà"
+    }
+  ],
+  "diamondNotes": [],
+  "auditLogs": [
+    {
+      "id": "log-1792655687462-drvo4",
+      "userId": "teacher-1792655672625-x1rw",
+      "username": "htnhung_thpl",
+      "action": "GOOGLE_LOGIN",
+      "details": "Giáo viên đăng nhập qua Google: htnhung.thpl@gmail.com",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-22T07:54:47.462Z"
+    },
+    {
+      "id": "log-1792655672625-w7v1w",
+      "userId": "teacher-1792655672625-x1rw",
+      "username": "htnhung_thpl",
+      "action": "TEACHER_GOOGLE_REGISTER",
+      "details": "Giáo viên đăng ký qua Google: htnhung.thpl@gmail.com - Cô Hoàng Thị Nhung (Lớp 4A1)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-22T07:54:32.625Z"
+    },
+    {
+      "id": "log-1792654465068-nitot",
+      "userId": "user-admin-01",
+      "username": "admin",
+      "action": "RESET_ADMIN_PASSWORD",
+      "details": "Đã đặt lại mật khẩu admin về mặc định 123456",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-22T07:34:25.068Z"
+    },
+    {
+      "id": "log-1792654442460-i7593",
+      "userId": "user-admin-01",
+      "username": "admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "Đăng nhập thành công với vai trò admin",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-22T07:34:02.460Z"
+    },
+    {
+      "id": "log-1792599526009-2gc70",
+      "userId": "teacher-thu-ha",
+      "username": "cothuha",
+      "action": "GRADE_SUBMISSION",
+      "details": "Chấm điểm bài Nguyễn Mai Anh: 9.5 điểm",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-21T16:18:46.009Z"
+    },
+    {
+      "id": "log-1792599525981-okli1",
+      "userId": "teacher-thu-ha",
+      "username": "cothuha",
+      "action": "LOGIN_SUCCESS",
+      "details": "Đăng nhập thành công với vai trò teacher",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-21T16:18:45.981Z"
+    },
+    {
+      "id": "log-1792599521358-r8m1d",
+      "userId": "student-mai-anh",
+      "username": "Nguyễn Mai Anh",
+      "action": "SUBMIT_ESSAY",
+      "details": "Nộp bài: Miêu tả cây bàng thân thuộc (28 từ)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-21T16:18:41.358Z"
+    },
+    {
+      "id": "log-1792599508179-opthk",
+      "userId": "user-admin-01",
+      "username": "admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "Đăng nhập thành công với vai trò admin",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-21T16:18:28.179Z"
+    },
+    {
+      "id": "log-1792599503688-6mam3",
+      "userId": "student-mai-anh",
+      "username": "Nguyễn Mai Anh",
+      "action": "STUDENT_LOGIN",
+      "details": "Học sinh đăng nhập vào Lớp 4A1",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-21T16:18:23.688Z"
+    },
+    {
+      "id": "log-init",
+      "userId": "system",
+      "username": "system",
+      "action": "SYSTEM_INITIALIZATION",
+      "details": "Khởi tạo hệ thống EDUNOVA v2.0 - Tạo tài khoản Admin (admin/123456), trường Kim Liên A và giáo viên chủ nhiệm.",
+      "timestamp": "2026-10-21T16:18:11.759Z"
+    }
+  ],
+  "aiQuotaDaily": {}
+}
